@@ -14,6 +14,24 @@ export const HERO_DATA = {
 
 export const PROJECTS_DATA: Project[] = [
   {
+    id: "05",
+    title: "RICTOUR VIAGENS",
+    client: "Rictour Turismo",
+    description: "Plataforma de turismo e locação de vans em Salvador. Sistema de reservas de transfers e passeios turísticos com foco em experiência do usuário.",
+    tech: ["WordPress", "PHP", "SEO"],
+    imageUrl: "/rictour.png",
+    link: "https://rictour.com.br/"
+  },
+  {
+    id: "04",
+    title: "LUMINA ODONTOLOGIA",
+    client: "Lumina Odontologia Premium",
+    description: "Site institucional premium para clínica odontológica. Design moderno, responsivo e focado na experiência do paciente.",
+    tech: ["React", "TailwindCSS", "Vite"],
+    imageUrl: "/lumina-odonto.png",
+    link: "https://lumina-odonto.netlify.app/#/"
+  },
+  {
     id: "01",
     title: "VERSO NÉON",
     client: "CyberSystems Ltd",

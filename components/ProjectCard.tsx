@@ -8,8 +8,11 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div
-      className="group relative block bg-slate-900/50 border border-slate-800 hover:border-cyan-500/50 transition-all duration-300 clip-corner overflow-hidden cursor-default"
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group relative block bg-slate-900/50 border border-slate-800 hover:border-cyan-500/50 transition-all duration-300 clip-corner overflow-hidden cursor-pointer"
     >
       {/* Image Container */}
       <div className="relative h-64 overflow-hidden">
@@ -28,7 +31,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <div className="h-0.5 w-0 bg-cyan-500 group-hover:w-full transition-all duration-500 mt-2"></div>
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
