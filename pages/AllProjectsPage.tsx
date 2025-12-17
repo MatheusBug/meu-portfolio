@@ -22,7 +22,7 @@ const AllProjectsPage: React.FC = () => {
                 <SectionHeader title="TODOS OS PROJETOS" subtitle="ARQUIVO_COMPLETO" />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {PROJECTS_DATA.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}

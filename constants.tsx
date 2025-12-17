@@ -37,35 +37,8 @@ export const PROJECTS_DATA: Project[] = [
     client: "Lumina Odontologia Premium",
     description: "Site institucional premium para clínica odontológica. Design moderno, responsivo e focado na experiência do paciente.",
     tech: ["React", "TailwindCSS", "Vite"],
-    imageUrl: "/lumina-odonto.png",
+    imageUrl: "/lumina-full.webp",
     link: "https://site-lumanina-odontologia.pages.dev/"
-  },
-  {
-    id: "01",
-    title: "VERSO NÉON",
-    client: "CyberSystems Ltd",
-    description: "Experiência web 3D imersiva com WebGL e React Three Fiber. Renderização de alta performance para imobiliária virtual.",
-    tech: ["React", "Three.js", "WebGL"],
-    imageUrl: "https://picsum.photos/id/134/600/400",
-    link: "#"
-  },
-  {
-    id: "02",
-    title: "SYNTH WAVE DASH",
-    client: "FinTech Corp",
-    description: "Dashboard de análise de criptomoedas em tempo real com UI dark mode e streams de dados via WebSocket.",
-    tech: ["TypeScript", "D3.js", "Socket.io"],
-    imageUrl: "https://picsum.photos/id/48/600/400",
-    link: "#"
-  },
-  {
-    id: "03",
-    title: "GHOST SHELL",
-    client: "Security Ops",
-    description: "Interface de mensagens criptografadas com módulos de autenticação de prova de conhecimento zero.",
-    tech: ["Rust", "WASM", "React"],
-    imageUrl: "https://picsum.photos/id/60/600/400",
-    link: "#"
   }
 ];
 
