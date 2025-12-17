@@ -14,6 +14,15 @@ export const HERO_DATA = {
 
 export const PROJECTS_DATA: Project[] = [
   {
+    id: "06",
+    title: "MONTEIRO & ASSOCIADOS",
+    client: "Monteiro & Associados",
+    description: "Site institucional para escritório de advocacia focado em excelência e autoridade jurídica. Design sóbrio e elegante.",
+    tech: ["React", "TailwindCSS", "Vite"],
+    imageUrl: "https://picsum.photos/id/1055/600/400",
+    link: "https://site-monteiro-associados-2.pages.dev/"
+  },
+  {
     id: "05",
     title: "RICTOUR VIAGENS",
     client: "Rictour Turismo",
@@ -29,7 +38,7 @@ export const PROJECTS_DATA: Project[] = [
     description: "Site institucional premium para clínica odontológica. Design moderno, responsivo e focado na experiência do paciente.",
     tech: ["React", "TailwindCSS", "Vite"],
     imageUrl: "/lumina-odonto.png",
-    link: "https://lumina-odonto.netlify.app/#/"
+    link: "https://site-lumanina-odontologia.pages.dev/"
   },
   {
     id: "01",
