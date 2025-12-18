@@ -24,15 +24,15 @@ const ProjectPreviewModal: React.FC<ProjectPreviewModalProps> = ({ project, isOp
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-black/80 backdrop-blur-sm animate-fadeIn">
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-2 sm:p-6 bg-black/80 backdrop-blur-sm animate-fadeIn">
             {/* Click outside to close */}
             <div className="absolute inset-0" onClick={onClose}></div>
 
             {/* Modal Content */}
-            <div className="relative w-full max-w-5xl bg-slate-900 border border-slate-700 shadow-[0_0_50px_rgba(0,0,0,0.5)] rounded-lg overflow-hidden flex flex-col max-h-[90vh]">
+            <div className="relative w-full max-w-5xl bg-slate-900 border border-slate-700 shadow-[0_0_50px_rgba(0,0,0,0.5)] rounded-lg overflow-hidden flex flex-col max-h-[80vh] sm:max-h-[90vh]">
 
                 {/* Header */}
-                <div className="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-950/50">
+                <div className="flex items-center justify-between px-4 py-3 sm:px-6 sm:py-4 border-b border-slate-800 bg-slate-950/50">
                     <div>
                         <h3 className="text-xl sm:text-2xl font-cyber text-white tracking-wide">
                             {project.title}
@@ -50,8 +50,8 @@ const ProjectPreviewModal: React.FC<ProjectPreviewModalProps> = ({ project, isOp
                 </div>
 
                 {/* Scrollable Content */}
-                <div className="flex-1 overflow-y-auto p-6 bg-slate-900/50">
-                    <div className="flex flex-col gap-6">
+                <div className="flex-1 overflow-y-auto p-4 sm:p-6 bg-slate-900/50">
+                    <div className="flex flex-col gap-4 sm:gap-6">
 
                         {/* Image Preview - Assuming imageUrl is a screenshot */}
                         <div className="w-full rounded-lg overflow-hidden border border-slate-800 shadow-xl group relative">
