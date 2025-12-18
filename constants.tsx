@@ -14,12 +14,21 @@ export const HERO_DATA = {
 
 export const PROJECTS_DATA: Project[] = [
   {
+    id: "07",
+    title: "ANNY NUTRICIONISTA",
+    client: "Anny Nutricionista",
+    description: "Site institucional para nutricionista focado em saúde e bem-estar. Design leve e acolhedor.",
+    tech: ["React", "TailwindCSS", "Vite"],
+    imageUrl: "/anny-nutricionista.webp",
+    link: "https://site-anny-nutricionista.pages.dev/"
+  },
+  {
     id: "06",
     title: "MONTEIRO & ASSOCIADOS",
     client: "Monteiro & Associados",
     description: "Site institucional para escritório de advocacia focado em excelência e autoridade jurídica. Design sóbrio e elegante.",
     tech: ["React", "TailwindCSS", "Vite"],
-    imageUrl: "/monteiro-associados.png",
+    imageUrl: "/monteiro-associados.webp",
     link: "https://site-monteiro-associados-2.pages.dev/"
   },
   {
@@ -28,7 +37,7 @@ export const PROJECTS_DATA: Project[] = [
     client: "Rictour Turismo",
     description: "Plataforma de turismo e locação de vans em Salvador. Sistema de reservas de transfers e passeios turísticos com foco em experiência do usuário.",
     tech: ["WordPress", "PHP", "SEO"],
-    imageUrl: "/rictour.png",
+    imageUrl: "/rictour.webp",
     link: "https://rictour.com.br/"
   },
   {

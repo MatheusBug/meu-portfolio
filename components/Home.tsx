@@ -75,7 +75,7 @@ const Home: React.FC = () => {
                     <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-slate-700 bg-slate-900 shadow-[0_0_30px_rgba(0,255,255,0.15)] group">
                         <img
                             src={HERO_DATA.avatarUrl}
-                            alt="Avatar"
+                            alt="Matheus Amorim - Arquiteto Digital"
                             className="w-full h-full object-cover transition-all duration-700"
                         />
                         {/* Overlay Glitch Lines */}
